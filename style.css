@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: wheat;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 500px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+label {
+  font-size: 20px;
+}
+input {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid wheat;
+  background-color: transparent;
+  width: 50px;
+  font-size: 20px;
+  color: wheat;
+}
+button {
+  border-color: wheat;
+  background-color: transparent;
+  color: wheat;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.lorem-text {
+  font-size: 15px;
+  color: whitesmoke;
+  margin: 20px;
+}
+hr {
+  margin: 20px;
+}
